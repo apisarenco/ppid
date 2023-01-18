@@ -2,6 +2,10 @@
 
 This is a simple program that will find the parent PIDs of a process on MacOS.
 
+### Why?
+
+Because I want an easy way to test where my shell is running. Some terminal emulators support fonts and colors, while others do not. I want to know which one I'm using, and conditionally re-launch zsh with the correct $ZDOTDIR.
+
 ### Usage
 
 ```bash
